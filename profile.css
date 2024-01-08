@@ -1,0 +1,62 @@
+
+body{
+    background-color: #ccc;
+}
+.pic img{
+   
+    vertical-align: top;
+    width: 400px;
+    height: 620px;
+    float: right;
+    object-position: bottom;
+   
+}
+.matter{
+    border: 3px solid white;
+    display: block;
+    width: 900px;
+    height: 610px;
+    background-color: rgba(242, 247, 244,0);
+}
+.text{
+    
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    color:black;
+    padding: 50px;
+    margin: 50px;
+    font-size: 25px;
+}
+.text h1, h2{
+    text-shadow: 3px 3px 5px  #f5894b;
+}
+.paragragh{
+    position: absolute;
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+    top: 30%;
+    color:black;
+}
+.paragragh p{
+    font-size: 20px;
+    text-shadow: 3px 3px 5px  #f5894b;
+}
+.paragragh .button{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px ridge black;
+    padding: 10px;
+    border-radius: 7px;
+    color:black;
+    text-decoration: none;
+}
+.paragragh .button:hover{
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    transition: 0.5s;
+    box-shadow:  3px 3px 5px  #f5894b;;
+}
+

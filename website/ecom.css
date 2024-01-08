@@ -1,0 +1,36 @@
+body{
+background-image:url("bg.jpg");
+background-position:center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 1150px;
+}
+.a{
+margin:1px;
+background-image:linear-gradient( #ffffff, #3385ff);
+color:linear-gradient(#ff1a1a,#ffb3b3);
+font-size:75px;
+border:1px ridge blue;
+padding:0px 0px 0px 300px;
+}
+p.underline{
+text-decoration:underline;
+}
+.b{
+font-size:20px;
+font-style:bold;
+color:yellow;
+width:30%;
+height:120px;
+float:left;
+poisition:absolute;
+}
+.b men{
+border-bottom:1px solid black;
+}
+select{
+margin:2px;
+border:2px solid blue;
+background:none;
+border-radius:20px;
+}
