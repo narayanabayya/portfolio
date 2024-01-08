@@ -11,7 +11,6 @@ body h2{
 header{
     margin: 0;
     height: 100px;
-    background-color: transparent;
     padding: 10px;
     border-bottom: 1px solid white;
     color: white;
@@ -19,12 +18,12 @@ header{
 header h1{
     font-size: 35px;
 }
-.details{
+header .details{
     position: absolute;
     right: 5px;
     top: 10px;
 }
-.details p{
+header .details p{
     margin: 8px;
 }
 .summary{
@@ -129,7 +128,7 @@ header h1{
     margin: 10px;
     width: 90px;
 }
-.tools {
+#technology .tools {
     border-left: 3px solid white;
     display: flex;
     flex-direction: column;
