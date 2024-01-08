@@ -1,0 +1,246 @@
+body{
+    font-weight: bold;
+    color:rgb(177, 27, 0); 
+    background: url('images/moon.jpg') no-repeat center fixed;
+    margin: 0;
+    padding: 0;
+}
+body h2{
+    text-decoration: underline;
+}
+header{
+    margin: 0;
+    height: 100px;
+    background-color: transparent;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+header h1{
+    font-size: 35px;
+}
+.details{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+.details p{
+    margin: 8px;
+}
+
+.summary{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color:rgb(184, 241, 241);
+    font-weight: bold;
+}
+.education{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    
+    column-gap: 80px;
+    font-weight: bold;
+    margin: 30px; 
+    row-gap: 100px;
+    padding: 30px;
+}
+.education h2{
+    text-decoration: underline;
+}
+.inter{
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url('images/moon.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    box-shadow: 0px 0px 10px 10px  white;
+    
+}
+.high-school{
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url('images/moon.jpg');
+    color: white;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px 10px  white;
+    
+}
+.College{
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url('images/moon.jpg');
+    color: white;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px 10px  white;
+}
+#skill{
+    border: 5px solid white;
+    background-color:rgb(184, 241, 241);
+    padding: 30px;
+    margin: 30px; 
+    border-radius: 10px;
+}
+#skills{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-right: 100px;
+}
+.skills img{
+    height: 40px;
+    margin: 10px;
+}
+.skills img:hover{
+    transform: scale(2,3);
+}
+
+#technology{
+    border: 5px solid white;
+    color: white;
+    padding: 30px;
+    margin: 30px; 
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.technologies img{
+    height: 90px;
+    margin: 10px;
+}
+.technologies p{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+.technologies a{
+    color: red;
+}
+.tools img{
+    height: 90px;
+    margin: 10px;
+    width: 90px;
+}
+.tools {
+    border-left: 3px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.myworks{
+   margin-left: 200px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    
+}
+.myworks img{
+    height: 50px;
+}
+.myworks img:hover{
+    opacity: 0.3;
+}
+#works{
+    padding: 30px;
+    margin: 30px ; 
+    border-radius: 10px;
+}
+.instagramclone{
+    background-color: lightpink;
+    background-image: url('images/shapes.jpg');
+    color: white;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 10px white ;
+    height: 250px;
+    width: 180px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.youtubeclone{
+    background-color: lightpink;
+    background-image: url('images/shapes.jpg');
+    color: white;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 10px white ;
+    backdrop-filter: blur(10px);
+    height: 250px;
+    width: 180px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginform{
+    background-color: lightpink;
+    background-image: url('images/shapes.jpg');
+    color: white;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px white ;
+    height: 250px;
+    width: 180px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Certification{
+    border: 5px solid white;
+    background-color:rgb(184, 241, 241);
+    padding: 30px;
+    margin: 30px ; 
+    border-radius: 10px;
+}
+#project{
+    border: 5px solid white;
+    background-color:rgb(184, 241, 241);
+    padding: 30px;
+    margin: 30px ; 
+    border-radius: 10px;
+}
+#Participations{
+    
+    border: 5px solid white;
+    background-color:rgb(184, 241, 241);
+    padding: 30px;
+    margin: 30px ; 
+    border-radius: 10px;
+}
+#Contact{
+    position: relative;
+    border-top: 5px solid white;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+.anchor a{
+    border: 2px solid white;
+    background-color: rgb(184, 241, 241);
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    font-weight: none;
+    ;
+}
+.anchor a:hover{
+    background-color: black;
+    color: white;
+}
