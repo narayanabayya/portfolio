@@ -326,12 +326,15 @@ header h1{
     }
     #project{
         margin: 5px;
+        padding: 10px;
     }
     #Certification{
         margin: 5px;
+        padding: 10px;
     }
     #Participations{
         margin: 5px;
+        padding: 10px;
     }
     #Contact .anchor{
         margin-bottom: 20px;
