@@ -270,12 +270,13 @@ p{
         position: absolute;
         display: grid;
         grid-template-columns: 1fr;
+        left:20px
         
     }
     .thumbnail img{
-        width: 350px;
+        width: 380px;
         height: 180px; 
-        margin:0;
+       
     }
     .down-bar{
         display: flex;
