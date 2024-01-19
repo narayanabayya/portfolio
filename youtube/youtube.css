@@ -266,6 +266,11 @@ p{
         position: absolute;
         display: grid;
         grid-template-columns: 1fr;
+        left: 25px;
+    }
+    .thumbnail img{
+        width: 380px;
+        height: 180px;  
     }
     .down-bar{
         display: flex;
