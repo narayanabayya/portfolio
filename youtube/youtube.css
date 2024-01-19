@@ -1,0 +1,298 @@
+
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    height: 70px;
+    background-color: white;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.fir-sec{
+    display: flex;
+    width: 350px;
+    
+}
+.menu{
+    height: 27px;
+    margin-left:30px;
+    margin-right: 33px;
+}
+.logo{
+    height: 25px;
+}
+.sec-sec{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+    max-width: 800px;
+    
+}
+.sec-sec input{
+    flex: 1;
+    height: 45px;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 15px;
+    font-size: 15px;
+    width: 0;
+    outline: none;
+    
+}
+.search{
+    height: 50px;
+    width: 70px;
+    border: 1px solid #ccc;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #f1eaea;
+    
+}
+.search img{
+    height: 30px;
+}
+.search:hover{
+    background-color:#ccc;
+}
+.voice{
+    height: 55px;
+    width: 55px;
+    margin-right: 7px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: #f1eaea;
+}
+.voice img{
+    height: 27px;
+}
+.voice:hover{
+    background-color:#ccc;
+}
+.thi-sec{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 200px;
+    
+    padding-left: 100px;
+}
+.upload{
+    position: absolute;
+    height: 29px;
+    right: 190px;
+    top: -23px;
+    
+    padding: 10px;
+    border-radius: 50%;
+}
+.upload:hover{
+    background-color:#ccc;
+    
+    
+}
+
+.notifications{
+    position: absolute;
+    height: 30px;
+    right: 120px;
+    top: -23px;
+    
+    padding: 10px;
+    border-radius: 50%;
+
+    
+}
+.notifications:hover{
+    background-color:#ccc;
+   
+}
+.narayana{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 60px;
+    top: -20px;
+    border-radius: 50%;
+    
+}
+.down {
+    display: none;
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    bottom: 0;
+    width: 90px;
+    margin-left: 0;
+    
+}
+.side-bar img{
+    height: 30px;
+    
+}
+.side-bar .narayana1{
+    display: none;
+}
+.side-bar .side ,.side2{
+    
+    align-items: center;
+    padding: 20px;
+    
+}
+.side1 img{
+    margin-left: 13px;  
+}
+.side-bar .side1{
+    padding: 18px 0px 18px 18px; 
+}
+.side-bar .side:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+.side1:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+.side2:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+.main{
+    position: absolute;
+    font-family: roboto;
+    left: 100px;
+    top: 90px;
+    width: auto;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    row-gap: 40px;
+    column-gap: 20px;
+    
+}
+.main .narayana1 img{
+    height: 35px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.thumbnail img{
+    
+    height: 165px;
+}
+
+.total{
+    margin-bottom: 10px;
+}
+.narayana1{
+    display: inline-block;
+    
+    vertical-align: top;
+    
+}
+.desc{
+    display: inline-block;
+    margin-left: 7px;
+}
+p.title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+p{
+    margin: 0px;
+}
+@media only screen and (max-width:900px) {
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width:500px) {
+    .fir-sec .menu{
+        display: none;
+    }
+    .fir-sec .logo {
+        height: 19px;
+        margin-left: 10px;
+    }
+    .sec-sec input {
+        display: none;
+    }
+    .sec-sec .voice{
+        display: none;
+    }
+    .sec-sec  .search{
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        right: 0;
+        top: 12px;
+    }
+    .sec-sec  .search img{
+        height:25px
+    }
+    .thi-sec .upload{
+        display: none;
+    }
+    .thi-sec .narayana{
+        display: none;
+    }
+    .thi-sec .notifications{
+        position: absolute;
+        right: 50px;
+        height: 25px;
+    }
+    .side-bar {
+    
+        display: none;
+    }
+    
+    .main{
+        position: absolute;
+        
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .down{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 5px;
+        z-index: 1;
+    }
+    .down .side{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .down .side img{
+        height: 33px;
+    }
+    .down .side .narayana1{
+        height: 35px;
+        border-radius: 50%;
+    }
+    .down .side p{
+        font-size: 15px;
+    }
+}
