@@ -270,7 +270,7 @@ p{
         position: absolute;
         display: grid;
         grid-template-columns: 1fr;
-       
+        left:0;
     }
     .thumbnail img{
         width: 350px;
