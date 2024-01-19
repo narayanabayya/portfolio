@@ -1,0 +1,140 @@
+body{
+    background-image: linear-gradient(rgba(0,0,2,0.6),rgba(0,0,2,0.6)) ,url(bg2.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+}
+
+.form1{
+    box-sizing: border-box;
+    color:white;
+    font-weight: 50px;
+    position: absolute;
+    top:20%;
+    left:40%;
+    text-align: left;
+    border:1px solid greenyellow;
+    padding: 20px;
+    width:200px;
+    height:300px;
+    background-color: rgba(75, 72, 72, 0.7);
+    box-shadow: 0 0 25px 5px rgba(250, 250, 67, 0.6);
+    border-radius: 7px;;
+    outline: none;
+}
+#email{
+    position: absolute;
+    color: aliceblue;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 2px solid  rgba(250, 250, 67, 0.6);
+    background-color: transparent;
+    outline: none;
+}
+#pwd{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom:2px solid  rgba(250, 250, 67, 0.6);
+    background-color: transparent;
+    outline: none;
+}
+.submit{
+    box-sizing: border-box;
+    color:beige;
+    margin: 10px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    padding:10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(250, 250, 67, 0.6);
+    background-color: transparent;
+    box-shadow: 0 0 5px 3px rgba(250, 250, 67, 0.6);
+}
+.submit1{
+    box-sizing: border-box;
+    background-color: transparent;
+    color:white;
+    padding: 5px 10px 5px 10px;
+    border: 0.5px solid rgba(250, 250, 67, 0.6);
+    box-shadow: 0 0 2px 2px rgba(250, 250, 67, 0.6);
+    border-radius: 5px;
+}
+
+.fa-solid{
+    margin: 5px;
+}
+
+.float h1{
+    font-size: 40px;
+    width: 50px;
+    float:left;
+    position: relative;
+    color:white;
+    font-weight: 50px;
+
+}
+
+.float ul{
+    margin-top: 20px;
+    float: right;
+    list-style-type:none;
+    display: flex;
+}
+
+.float ul li{
+   
+    margin-top: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 70px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(75, 72, 72, 0.7);
+    box-shadow: 0 0 15px 3px rgba(250, 250, 67, 0.6);
+   
+}
+.float ul li:hover{
+   
+    cursor: pointer;
+    transition: 0.2s;
+    background-color:rgba(250, 250, 67, 0.6);
+}
+.submit:hover{
+    cursor: pointer;
+    background-color:rgba(250, 250, 67, 0.6);
+    border: none;
+}
+.submit1:hover{
+    cursor: pointer;
+    background-color:rgba(250, 250, 67, 0.6);
+    border: none;
+}
+
+@media only screen and (max-width:500px){
+    body{
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+    }
+    .float h1{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+    .float ul{
+        position: absolute;
+        right: 5px;
+    }
+    .float ul li{
+        margin: 5px;
+    }
+    .form1{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        box-shadow: 0px 4px 26px 10px rgba(243, 247, 226, 0.2), 0px 6px 20px 10px rgba(235, 217, 217, 0.2) ;
+    }
+}
