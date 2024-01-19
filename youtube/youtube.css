@@ -266,10 +266,10 @@ p{
         position: absolute;
         display: grid;
         grid-template-columns: 1fr;
-        left: 25px;
+        left: 20px;
     }
     .thumbnail img{
-        width: 380px;
+        width: 350px;
         height: 180px;  
     }
     .down-bar{
