@@ -264,7 +264,6 @@ p{
     
     .main{
         position: absolute;
-        
         display: grid;
         grid-template-columns: 1fr;
     }
