@@ -123,7 +123,7 @@ header{
     border-radius: 50%;
     
 }
-.down {
+.down-bar {
     display: none;
 }
 .side-bar{
@@ -264,7 +264,7 @@ p{
     
     .main{
         position: absolute;
-        left: 10px;
+        
         display: grid;
         grid-template-columns: 1fr;
     }
